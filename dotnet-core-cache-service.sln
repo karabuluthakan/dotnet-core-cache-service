@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{020BF19C-411D-4218-90D1-2CD4E1C139AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CacheService", "CacheService\CacheService.csproj", "{5CAEE25C-7129-4FF4-8031-A5EB3704BE3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{379073FC-2D65-4685-B527-6163E9DF2255}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CacheService.Tests", "CacheService.Tests\CacheService.Tests.csproj", "{D91C8ED6-38B5-49DE-A4EF-5BE4B017B58E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5CAEE25C-7129-4FF4-8031-A5EB3704BE3D} = {020BF19C-411D-4218-90D1-2CD4E1C139AB}
+		{D91C8ED6-38B5-49DE-A4EF-5BE4B017B58E} = {379073FC-2D65-4685-B527-6163E9DF2255}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CAEE25C-7129-4FF4-8031-A5EB3704BE3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CAEE25C-7129-4FF4-8031-A5EB3704BE3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CAEE25C-7129-4FF4-8031-A5EB3704BE3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CAEE25C-7129-4FF4-8031-A5EB3704BE3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D91C8ED6-38B5-49DE-A4EF-5BE4B017B58E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D91C8ED6-38B5-49DE-A4EF-5BE4B017B58E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D91C8ED6-38B5-49DE-A4EF-5BE4B017B58E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D91C8ED6-38B5-49DE-A4EF-5BE4B017B58E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
